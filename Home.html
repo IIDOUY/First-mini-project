@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: hsl(166, 80%, 44%);
+            color: white;
+            padding: 10px;
+            text-align:left;
+        }
+        main {
+            padding: 0px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: hsl(166, 80%, 44%);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+              display:inline-block;
+              flex-direction:column-reverse;
+       }
+       .socail_icon{
+        transition: 0,2s;
+        color: rgb(255, 255, 255);
+        margin: 0px 10px;
+        height: 50px;
+        width: 50px;
+       }
+       .socail_icon :hover{
+        color : #333333;
+       }
+       .logo{
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        top: 5%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+       }
+       .text {
+        position: absolute;
+        top: 2%;
+        left: 87%;
+        transform: translate(-50%, -50%);
+       }
+       @font-face{
+        font-family: myFont;
+        src: url(bad.ttf.ttf);
+       }
+       h2{
+        font-family: myFont;
+       }
+       .wall {
+        height: 400px;
+       }
+        .text1{
+            position: absolute;
+            left: 65%;
+            top: 15%;
+            color: hsl(166, 80%, 44%);
+            font-size: 50px;
+        }
+        .page{
+            position: absolute;
+            left: 45%;
+            color: aliceblue;
+            
+
+        }
+        .page :hover{
+             color : #333333;
+        }
+       
+        .pill {
+  
+  font-family: "Readex Pro", sans-serif;
+  padding: 0.5em 1em;
+  margin: 0.25em;
+  border-radius: 1em;
+  border: 1px solid chartreuse;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 20px 50px;
+            font-size: 20px;
+            font-weight: bold;
+            color: aliceblue;
+           
+            position: absolute;
+            left: 65%;
+            top: 45%;
+
+}
+
+.pill:not(.pill--selected):hover {
+  background: #cccccc;
+}
+
+.pill--selected {
+  background: transparent;
+  color: #000000;
+}
+
+
+    </style>
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+    <header>
+       
+
+
+        <h2 class="text">MANGA</h2> 
+        <img class="logo" src="logo2.png"> 
+        <a class= "socail_icon" href= "https://chat.whatsapp.com/GYt1V7O7ICFHPNHAGdmKLf" target="_blank"> <ion-icon name="logo-whatsapp"></ion-icon></a>
+        <a  class = "socail_icon" href="https://youtube.com" target="_blank" > <ion-icon name="logo-youtube"></ion-icon></a>  
+        <a  class = "socail_icon" href="https://www.instagram.com" target="_blank" > <ion-icon name="logo-instagram"></ion-icon></a>  
+        <a  class="page" href="Home.html">HOME</a>
+        <a   href="Login.html" style="position: absolute;left: 50%;color: aliceblue;">LOGIN</a>
+        <a   href="News.html" style="position: absolute;left: 55%;color: aliceblue;">NEWS</a>
+
+    </header>
+    <main>
+        <h1 class="text1" style="font-family: impact, sans-serif;">Demon Slayer</h1>
+        <img class="wall" src="wall3.png"> 
+        <p  style="color:  hsl(0, 0%, 0%); position: absolute; left: 55% ;top: 30%; text-align: center;" >Demon Slayer: Kimetsu no Yaiba, Kimetsu no Yaiba, rgh. "Blade of Demon Destruction" is a Japanese manga series written and illustrated by Koyoharu Gotouge.</p>
+        <a href="Login.html"><button class="pill pill--selected" type="button">Read Latest Manga</button></a>
+        <img src="WALL6.png" style=" height: 300px; width: 1000px;"> 
+        <img style=" position: absolute; top: 62%;height: 400px; left: 60%;" src="wall5.png">
+        <img src="wall8.png" style="height: 400px;position: absolute; right: 0%; top: 119%;">
+        <h2 style="position: absolute; left: 20%; top: 80%; color: aliceblue; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;">ABOUT THIS MANGA</h2>
+        <p style="position: absolute; left: 5%; top: 90%; ">Some of our favorite anime series include Attack on Titan,Join our community <br>and discuss your favorite anime series with other fans on our forum  Naruto, and One Piece.</p>
+        <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px;color: hsl(166, 80%, 44%);;">Chapter List</h2>
+        <ul style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px">Chapter 1 </ul>
+        <p></p>
+        <ul style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;">Chapter 2 </ul>
+        <p></p>
+        <ul style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px">Chapter 3 </ul>
+        <p></p>
+        <ul style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px">Chapter 4 </ul>
+        
+        
+    </main>
+    <footer>
+      <img width="100" src="https://www.drawlikeasir.com/wp-content/uploads/2021/06/Marcel_logo_Loop-.gif" class="image wp-image-2312  attachment-full size-full" alt="" style="max-width: 100%; height: auto;" decoding="async">
+    </footer>
+</body>
+</html>

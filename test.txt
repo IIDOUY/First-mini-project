@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Contacts</a>
+            <a href="">Info</a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="tomoyoka.jpg">
+                <div class="content">
+                    <div class="author">Manzakin</div>
+                    <div class="title">Tomioka</div>
+                    <div class="topic">Water Hashira</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        Giyu Tomioka (冨とみ岡おか 義ぎ勇ゆう Tomioka Giyū?) is a major <br>supporting character of Demon Slayer: Kimetsu no Yaiba.<br> He is a Demon Slayer of the Demon Slayer Corps and the current Water Hashira
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="tanjiro.jpg">
+                <div class="content">
+                    <div class="author">MINZAKIN</div>
+                    <div class="title">Tanjiro Kamado</div>
+                    <div class="topic">Fire Hashira</div>
+                    <div class="des">
+                        Tanjiro Kamado (竈門かまど 炭たん治じ郎ろう Kamado Tanjirō?) is the main protagonist of Demon Slayer: Kimetsu no Yaiba. He is a Demon Slayer in the Demon Slayer Corps, who joined to find a remedy to turn his sister, Nezuko Kamado, back into a human and to hunt down <br>and kill demons,[5] and later swore to defeat Muzan Kibutsuji,<br> the King of Demons, in order to prevent others from suffering the same fate as him.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="nezuko.jpg">
+                <div class="content">
+                    <div class="author">MINZAKIN</div>
+                    <div class="title">Nezuko Kamado</div>
+                    <div class="topic">Demon</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="yellow.jpg">
+                <div class="content">
+                    <div class="author">MINZAKIN</div>
+                    <div class="title">Zenitsu Agatsuma</div>
+                    <div class="topic">Light Hashira</div>
+                    <div class="des">
+                        Zenitsu Agatsuma (我あが妻つま 善ぜん逸いつ Agatsuma Zen'itsu?) is one of the main characters of Demon Slayer: Kimetsu no Yaiba and along with Inosuke Hashibira, a travelling companion of Tanjiro Kamado and Nezuko Kamado. He is also a Demon Slayer in the Demon Slayer Corps.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="Zenitsucara.webp">
+                <div class="content">
+                    
+                    <div class="title">
+                        
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="tomoyokacara.webp">
+                <div class="content">
+                    <div class="title"></div>
+                    <div class="description">
+                        WATER HASHIRA
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="tanjirocara.webp">
+                <div class="content">
+                    <div class="title">
+                        Tanjiro
+                    </div>
+                    <div class="description">
+                        FIRE HASHIRA
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="nezukocara.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Anime Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: hsl(151, 82%, 46%);
+            color: white;
+            padding: 10px;
+            text-align:left;
+        }
+        main {
+            padding: 0px;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color:  hsl(151, 82%, 46%);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+              display:inline-block;
+              flex-direction:column-reverse;
+       }
+       .socail_icon{
+        transition: 0,2s;
+        color: rgb(255, 255, 255);
+        margin: 0px 20px;
+       }
+       .socail_icon :hover{
+        color : #333333;
+       }
+       .logo{
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        top: 5%;
+        left: 95%;
+        transform: translate(-50%, -50%);
+       }
+       .text {
+        position: absolute;
+        top: 2%;
+        left: 87%;
+        transform: translate(-50%, -50%);
+       }
+       @font-face{
+        font-family: myFont;
+        src: url(bad.ttf.ttf);
+       }
+       h2{
+        font-family: myFont;
+       }
+
+
+    </style>
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
+    <header>
+
+
+        <h2 class="text">MANGA</h2> 
+        <img class="logo" src="logo2.png"> 
+        <a class= "socail_icon" href= "https://ionic.io/ionicons" target="_blank"> <ion-icon name="logo-whatsapp"></ion-icon></a>
+        <a  class = "socail_icon" href="https://youtube.com" target="_blank" > <ion-icon name="logo-youtube"></ion-icon></a>  
+
+    </header>
+    <main>
+        <h1>About Anime</h1>
+        <p>Anime is a style of Japanese animation that has become popular around the world. It covers a wide range of genres, from action and adventure to romance and comedy.</p>
+        <h1>Our Favorite Anime Series</h1>
+        <p>Some of our favorite anime series include Attack on Titan, Naruto, and One Piece.</p>
+        <h1>Visit Our Forum</h1>
+        <p>Join our community and discuss your favorite anime series with other fans on our forum.</p>
+    </main>
+    <footer>
+        &copy; 2024 Anime Website
+    </footer>
+</body>
+</html>
